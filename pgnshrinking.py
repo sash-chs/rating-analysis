@@ -12,4 +12,4 @@ with open(in_path, encoding="utf-8") as pgn_in, open(out_path, "w", encoding="ut
             break
         pgn_out.write(str(game) + "\n\n")  
     
-print("Sucessfully shrinked to {i+1} games and saved to '{out_path}')
+print("Sucessfully shrinked to {i+1} games and saved to '{out_path}'")
